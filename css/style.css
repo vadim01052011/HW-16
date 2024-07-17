@@ -3,16 +3,17 @@
 }
 
 
-.bg-box {
-    background-color: green;
+.bg-box {   
     margin: 0;
     padding: 0;
 }
 
 .bg-box {
-    height: 100px;
-    width: 150px;
-    background-image: url(../image/donut.png);
-    background-repeat: repeat-y;
-    background-position: right;
+    height: 500px;
+    width: 100%;
+    background-color: green;
+    background-image: url(../image/donut.png) url(../image/lamp.png), url(../image/grass.png), url(../image/eghik.webp), url(../image/house.webp);
+    background-repeat: repeat-y,repeat-x,repeat-x,repeat-y,no-repeat;
+    background-position: right,top,bottom,left,center;
 }
+
